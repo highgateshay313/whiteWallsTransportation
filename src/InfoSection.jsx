@@ -2,7 +2,7 @@
 export default function InfoSection() {
     return (
         <section className="info-section">
-             <h3>Feel more Relaxed, Focused and Presidential</h3>
+             <h2>Feel more Relaxed, Focused and Presidential</h2>
              <audio src="" controls preload="metadata">
 
              </audio>

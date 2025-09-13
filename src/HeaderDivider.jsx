@@ -1,7 +1,7 @@
 
 export default function HeaderDivider() {
     return (
-        <section className="infoText">
+        <section className="divider">
             <hr />
         </section>
     )

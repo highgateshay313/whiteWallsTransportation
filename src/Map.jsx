@@ -22,8 +22,8 @@ export default function Map() {
         const detriot = [42.3314, -83.0458];
 
     return (
-        <div style={{height: "300px", width: "100%"}}>
-            <MapContainer center={detriot} zoom={12} style={{height: "100%", width: "100%"}}>
+        <div style={{height: "200px", width: "100%"}}>
+            <MapContainer center={detriot} zoom={12} style={{height: "200px", width: "100%"}}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

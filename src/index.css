@@ -5,6 +5,8 @@
 }
 
 main {
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(95deg, rgba(0, 0, 0, 0.9), rgb(135, 135, 135));
 }
 
@@ -41,9 +43,11 @@ header {
   padding-left: 20px;
 }
 
-.infoText > hr {
+.divider > hr {
+  height: 2px;
   border: 3px solid #028090;
   width: 100%;
+  background-color: white;
   margin-top: 40px;
 }
 
@@ -94,6 +98,7 @@ audio {
   color: #ffffff;
   text-shadow: 0 1px #028090;
   font-size: 1.5rem;
+  z-index: 11;
 }
 
 .comeRide-section  > p {
@@ -116,7 +121,7 @@ audio {
   height: 100%;
   position: absolute;
   background: rgba(0, 0, 0, 0.2);
-  z-index: 11;
+  /* z-index: 11; */
 }
 
 .images {
@@ -127,6 +132,109 @@ audio {
 
 .map {
   width: 100%;
-  height: 300px;
+  height: 200px;
+}
 
+.mission-statement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  background: url(assets/mission-statement.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.mission-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.mission-statement > h4 {
+  font-size: 1.5rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  z-index: 11;
+}
+
+.mission-statement > h5 {
+  padding-bottom: 20px;
+  z-index: 11;
+  color: #028090;
+  font-size: 1.2rem;
+  text-shadow: 0 0.6px white;
+}
+
+
+
+.divider-two > hr {
+  height: 2px;
+  border: 3px solid #028090;
+  background-color: white;
+}
+
+#mission-p1 {
+  width: 300px;
+  text-shadow: 0 1px black;
+  z-index: 11;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.copywright {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  background-color: gray;
+}
+
+.copywright > p {
+  padding: 10px;
+  color: white;
+}
+
+.footer-info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  margin-top: 20px;
+}
+
+.footer-info > p {
+  margin-left: 20px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.instagram, .facebook {
+  padding-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.linkedin {
+  font-size: 1.1rem;
 }
